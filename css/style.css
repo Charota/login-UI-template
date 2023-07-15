@@ -1,0 +1,272 @@
+body {
+    --deep-mos-green: #355B3E;
+    --axolotl: #58745E;
+    --jet-stream: #B8D6BF;
+    --green-cyan: #029664;
+
+    background-color: var(--deep-mos-green);
+
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-ui {
+    max-width: 1296px;
+    min-width: 800px;
+    width: 100%;
+    max-height: 714px;
+    height: 100%;
+    min-height: 514px;
+    background-color: white;
+
+    border-radius: 24px;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+
+    margin: 0 45px;
+
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+}
+
+.login-form {
+    width: 100%;
+    max-width: 550px;
+    height: 100%;
+
+    box-sizing: border-box;
+    padding: 46px 64px 66px 64px;
+    color: var(--deep-mos-green);
+}
+
+.car-img {
+    background-color: #F5DBC4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.car-img__img {
+    width: 495px;
+}
+
+.intro-logo {
+    display: flex;
+    width: 100%;
+    max-width: 216px;
+    height: 36px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.intro__intro-logo {
+    margin-bottom: 63px;
+}
+
+.logo-img {
+    margin: 15px;
+}
+
+.company-name {
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.intro-desc {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 150%;
+}
+
+.intro__intro-desc {
+    margin-bottom: -2px;
+}
+
+.welcome-back {
+    color: var(--axolotl);
+}
+
+.login-form__intro {
+    margin-bottom: 30px;
+}
+
+.intro-logo__logo-img {
+    margin: 0 15px;
+}
+
+.login-ui {
+    min-width: 1050px;
+    min-height: 732px;
+}
+
+.l-form-p {
+    font-weight: 600;
+    line-height: 16px;
+    margin-bottom: 7px;
+}
+
+.l-form-inp {
+    box-sizing: border-box;
+    padding: 16px;
+    line-height: 24px;
+    max-width: 422px;
+    width: 100%;
+    border: 1px solid var(--jet-stream);
+    border-radius: 8px;
+    font-family: 'Inter', sans-serif;
+    color: var(--deep-mos-green);
+}
+
+.l-form__inp {
+    margin-bottom: 8px;
+}
+
+.l-form__inp:focus {
+    outline: 1px solid var(--deep-mos-green);
+}
+
+.password-inp {
+    letter-spacing: 3px;
+    padding-right: 40px;
+}
+
+.addit-funcs {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.login-form_addit-funcs {
+    margin-bottom: 22px;
+}
+
+.checkbox {
+    display: flex;
+    align-items: center;
+}
+
+.inp-checkbox {
+    display: none;
+}
+
+.custom-checkbox {
+    position: relative;
+    top: -1px;
+    background-color: #fff;
+    height: 12px;
+    width: 12px;
+    border: 1px solid var(--green-cyan);
+    border-radius: 3px;
+}
+
+.inp-checkbox:checked ~ .custom-checkbox {
+    background: url('../src/imgs/remember-me-check-mark.svg') no-repeat center;
+}
+
+.checkbox__custom-checkbox {
+    margin-right: 8px;
+}
+
+.fogot-password-link {
+    font-weight: 500;
+    color: var(--deep-mos-green);
+}
+
+.label-checkbox {
+    font-weight: 500;
+    line-height: 16px;
+}
+
+.l-form__pass-inp {
+    margin-bottom: 22px;
+}
+
+.pass-inp {
+    position: relative;
+}
+
+.show-pass-btn {
+    position: absolute;
+    top: 20px;
+    right: 15px;
+    display: inline-block;
+    background: url('../src/imgs/show-password.svg') no-repeat center;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.enter-buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.enter-button {
+    height: 48px;
+    width: 100%;
+    border: 1px solid var(--green-cyan);
+    border-radius: 8px;
+
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+}
+
+.enter-button:hover {
+    transform: scale(1.03,1.03);
+}
+
+.login-button {
+    background-color: var(--green-cyan);
+    color: #fff;
+}
+
+.enter-buttons__login-button {
+    margin-right: 24px;
+}
+
+.signup-button {
+    color: var(--green-cyan);
+    background-color: #fff;
+}
+
+.login-with {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 372px;
+    width: 100%;
+}
+
+.login-form__l-form {
+    margin-bottom: 38px;
+}
+
+.p-login-with {
+    color: var(--axolotl);
+    font-weight: 400;
+}
+
+.link-login {
+    font-weight: 500;
+    color: var(--deep-mos-green);
+    text-decoration: none;
+}
+
+.link-login:hover {
+    text-decoration: underline;
+}
+
+
+
+
+
